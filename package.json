@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemo": "^1.0.0",
+    "nodemon": "^3.1.4"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "prog1.js",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./dist/index14.js",
+    "dev": "tsc -w",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
